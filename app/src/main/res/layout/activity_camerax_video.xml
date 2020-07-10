@@ -3,14 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/C_FF000000"
     android:layout_height="match_parent">
-
-
     <TextureView
         android:id="@+id/viewFinder"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-
     <VideoView
         android:id="@+id/vidView"
         android:layout_width="110dp"
@@ -18,7 +16,6 @@
         android:layout_gravity="start|bottom"
         android:layout_marginStart="30dp"
         android:layout_marginBottom="30dp" />
-
     <ImageView
         android:id="@+id/imgClick"
         android:layout_width="40dp"
@@ -29,7 +26,6 @@
         android:contentDescription="@string/click_image_photo"
         android:src="@drawable/ic_photo_camera_24"
         android:tint="@color/C_FFFFFFFF" />
-
     <ImageView
         android:id="@+id/imgFlip"
         android:layout_width="30dp"
@@ -41,6 +37,4 @@
         android:scaleType="centerCrop"
         android:src="@drawable/ic_flip_camera_24"
         android:tint="@color/C_FFFFFFFF" />
-
-
 </FrameLayout>
