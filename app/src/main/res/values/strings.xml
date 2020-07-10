@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AndroidJavaBasic2</string>
+    <string name="click_image_photo">click image photo</string>
+    <string name="flip_camera_photo">flip camera photo</string>
+    <string name="button">Button</string>
+    <string name="tab_on_screen_to_view_effect">Tab On Screen to View Effect</string>
+    <string name="todo">TODO</string>
+</resources>
